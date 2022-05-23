@@ -677,10 +677,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+var laughImg = document.getElementById('laughImg');
+laughImg.src = _assets_baseball_svg__WEBPACK_IMPORTED_MODULE_2__;
 console.log('Hello World');
 console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"])());
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=customOutputName.6ea5895051746e7200ad.js.map
+//# sourceMappingURL=customOutputName.e6eb65f0948deb01a1d3.js.map
