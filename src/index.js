@@ -5,5 +5,7 @@ import baseball from './assets/baseball.svg';
 const laughImg = document.getElementById('laughImg');
 laughImg.src = baseball;
 
-console.log('Hello World');
-console.log(generateJoke());
+const jokeBtn = document.getElementById('jokeBtn');
+jokeBtn.addEventListener('click', generateJoke);
+
+generateJoke();
